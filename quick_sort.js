@@ -3,6 +3,7 @@ const k = 2;
 let left = 0;
 let right = nums.length - 1;
 console.log(left, right);
+
 function quickSort(array, left, right) {
 	if (left < right) {
 		const midPoint = sort(array, left, right);
